@@ -1,6 +1,4 @@
-body{
-  background-color: black;
- }
+
 
 .content{
   width: 80%;
@@ -11,34 +9,7 @@ body{
   
 }
 
-.nav-pills{
-  width: 70%;
-  background-color: black;    
-  margin: 0 auto;
-  border-radius: 2px;
-  margin-top: 2%;
-  color: white;
-  
-}
 
-.nav-item{
-  width: 50%;
-   /*80%-reponsive*/
-}
-
-.nav-link:hover{
-  color: white;
-  background-color: gray;
-}
-
-.nav-pills .nav-link{
-  font-weight: bold;
-  padding-top: 13px;
-  text-align: center;
-  color: white;
-  height: 60px;
-
-}
 
 .tab-content{
   height: auto;
@@ -60,10 +31,6 @@ body{
 }
 
 
-#numero-conta{
-  text-align: center;
-  margin-top: 5%;
-}
 
 
 
