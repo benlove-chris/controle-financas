@@ -1,6 +1,15 @@
+# Controle de finanças
 
-### Sistema de controle de finanças pessoais desenvolvido para a terceira etapa de seleção do programa PUBFUTURE!
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![made-with-js](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com/)
 
+📜 Descrição do projeto
+
+
+A lógica do projeto roda prioritariamente em Python, com requerimentos de dados pela parte gráfica, a qual optei por desenvolver em um ambiente WEB com JavaScript e jQuery, uma vez que me sinto mais confortável e não tenho experiência Java.
+## 👾 Live demo
+O sistema está hospedado temporariamente no githubpage  e pode ser visualizado [aqui]   
+A parte do backend está rodano no pythonanywhre.
 
 
 ## Tecnologias
