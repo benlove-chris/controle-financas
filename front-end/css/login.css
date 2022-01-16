@@ -29,7 +29,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 80%;
+    height: 100%;
     background-color: white;
     border-radius: 10px;
     opacity: 0.85;
@@ -98,6 +98,43 @@ form [type="text"], .form [type="password"] {
 
 .logo {
     display: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d1e0e0;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    
+    display: flex;
+    
+}
+
+.login{
+    position: absolute;
+    padding: 3%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 80%;
+    border-radius: 10px;
+    
+}
+
+.overlay{
+    position: absolute;
+    padding: 4%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.85;
+
 }
 }
 

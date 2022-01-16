@@ -15,7 +15,7 @@
    </head>
    <body>
       <!-- nav-bar-->
-      <nav class="navbar  navbar-expand-lg navbar-dark bg-success" >
+      <nav class="navbar  navbar-expand-lg navbar-dark bg-danger" >
         
          <div class="container-fluid">
             
@@ -57,7 +57,7 @@
                <div class="col-md-4 mb-3">
                   <input type="date" class="form-control" id="data_fim">
                </div>
-               <button type="submit" class="col-md-4 mb-3 btn btn-primary" onclick="filtrarPeriodoDespesa(); return false;" >Filtrar periodo</button>
+               <button type="submit" class="col-md-4 mb-3 btn btn-dark" onclick="filtrarPeriodoDespesa(); return false;" >Filtrar periodo</button>
             </div>
          </form>
          
@@ -76,7 +76,7 @@
                <!-- dados a ser carregado -->
             </tbody>
          </table>
-         <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#adddespesa" data-whatever="@mdo">Cadastrar despesa</button>
+         <button type="button" class="btn btn-dark mt-4" data-toggle="modal" data-target="#adddespesa" data-whatever="@mdo">Cadastrar despesa</button>
          
       </div>
       <!--modal -->
@@ -169,7 +169,7 @@
                <!--modal footer-->
                <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                  <button type="submit" class="btn btn-primary" id="cadastrar" onclick="cadastrarDespesa();" data-dismiss="modal">Cadastrar despesa</button>
+                  <button type="submit" class="btn btn-dark" id="cadastrar" onclick="cadastrarDespesa();" data-dismiss="modal">Cadastrar despesa</button>
                </div>
             </div>
          </div>

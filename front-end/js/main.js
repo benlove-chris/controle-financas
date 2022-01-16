@@ -1,10 +1,11 @@
 id_usuario = localStorage.getItem('usuario');
 var link_backend = "http://localhost:5000";
 $(document).ready(function(){
-	if (id_usuario == null){
+	//login required
+    /*if (id_usuario == null){
 		alert("Necessita fazer login");
 		location.href = "../index.html";
-	}
+	}*/
 
 	//listar conta total
 	$.ajax({
@@ -22,6 +23,7 @@ $(document).ready(function(){
         contas = total.valor_total;
         contashtml = Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(contas);
         document.getElementById("totalConta").innerHTML = contashtml;
+        //
         
         }
 
@@ -42,6 +44,7 @@ $(document).ready(function(){
         despesas = total.valor_total;
         despesashtml = Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(despesas);
         document.getElementById("totalDespesa").innerHTML = despesashtml;
+        //
         
         }
 
@@ -61,6 +64,7 @@ $(document).ready(function(){
         receitas = total.valor_total;
         receitashtml = Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(receitas);
         document.getElementById("totalReceita").innerHTML = receitashtml;
+        //
         
         }
 	
