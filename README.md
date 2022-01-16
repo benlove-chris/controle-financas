@@ -8,7 +8,7 @@
 
 A lógica do projeto roda prioritariamente em Python, com requerimentos de dados pela parte gráfica, a qual optei por desenvolver em um ambiente WEB com JavaScript e jQuery, uma vez que me sinto mais confortável e não tenho experiência Java.
 ## 👾 Live demo
-O sistema está hospedado temporariamente no githubpage  e pode ser visualizado [aqui]   
+O sistema está hospedado no github page  e pode ser visualizado [aqui](http://benlove-chris.github.io/)   
 A parte do backend está rodano no pythonanywhre.
 
 
