@@ -1,5 +1,5 @@
 
-### Sistema desenvolvido para a terceira etapa de seleção do programa PUBFUTURE!
+### Sistema de controle de finanças pessoais desenvolvido para a terceira etapa de seleção do programa PUBFUTURE!
 
 
 
@@ -15,8 +15,12 @@
 | Cadastro de Usuários, Contas, Receitas e Despesas| :heavy_check_mark: |
 | Possibilidade de exclusão dos cadastrados| :heavy_check_mark: |
 | Possibilidade de edição dos cadastrados| :heavy_check_mark: |
-| Login de usuários | :heavy_check_mark: |
-| Acesso dos usuários a seus dados pessoais | :heavy_check_mark: |
+| Listar os dados cadastrados| :heavy_check_mark: |
+| Filtar por intervalo de tempo| :heavy_check_mark: |
+| Filtar por tipo | :heavy_check_mark: |
+| Transferencia entre contas| :heavy_check_mark: |
+| Login de usuário | :heavy_check_mark: |
+| Acesso do usuário a seus dados pessoais | :heavy_check_mark: |
 | Logout do usuários | :heavy_check_mark: |
 
 
