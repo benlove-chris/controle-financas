@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <title>Controle de finanças</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+      <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+      <link rel="shortcut icon" href="../img/logo.png" >
+   </head>
+   <body>
+      <div class="container">
+         <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+            <div class="container h-100">
+               <div class="row d-flex justify-content-center align-items-center h-100">
+                  <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                     <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                           <h2 class="text-uppercase text-center mb-5">Cadastrar</h2>
+                           <form>
+                              <div class="form-outline mb-4">
+                                 <input type="text" id="nome" class="form-control form-control-lg" required />
+                                 <label class="form-label" for="nome">Nome completo</label>
+                              </div>
+                              <div class="form-outline mb-4">
+                                 <input type="mailto" id="email" class="form-control form-control-lg" required />
+                                 <label class="form-label" for="email">Email</label>
+                              </div>
+                              <div class="form-outline mb-4">
+                                 <input type="text" id="usuario" class="form-control form-control-lg" />
+                                 <label class="form-label" for="usuario">Usuario</label>
+                              </div>
+                              <div class="form-outline mb-4">
+                                 <input type="password" id="senha" class="form-control form-control-lg"  required />
+                                 <label class="form-label" for="senha">Senha</label>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" id="cadastrar">Realizar cadastro</button>
+                              </div>
+                              <p class="text-center text-muted mt-5 mb-0">Já possui uma conta? <a href="../index.html" class="fw-bold text-body"><u>Entre </u></a></p>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--modals end-->
+      <!--imports js -->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="../js/perfil.js"></script>
+   </body>
+</html>

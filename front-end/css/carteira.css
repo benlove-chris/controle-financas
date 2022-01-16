@@ -1,0 +1,70 @@
+body{
+  background-color: black;
+ }
+
+.content{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 5%;
+  
+}
+
+.nav-pills{
+  width: 70%;
+  background-color: black;    
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-top: 2%;
+  color: white;
+  
+}
+
+.nav-item{
+  width: 50%;
+   /*80%-reponsive*/
+}
+
+.nav-link:hover{
+  color: white;
+  background-color: gray;
+}
+
+.nav-pills .nav-link{
+  font-weight: bold;
+  padding-top: 13px;
+  text-align: center;
+  color: white;
+  height: 60px;
+
+}
+
+.tab-content{
+  height: auto;
+  color: white;
+  border-radius: 30px;
+  z-index: 1000;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color: #73828c;
+  
+}
+
+.tab-content button{
+  border-radius: 15px;
+  
+  margin: 0 auto;
+  
+}
+
+
+#numero-conta{
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+

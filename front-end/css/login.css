@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d1e0e0;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    
+    display: flex;
+    
+}
+
+.login{
+    position: absolute;
+    padding: 3%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 80%;
+    border-radius: 10px;
+    
+}
+
+.overlay{
+    position: absolute;
+    padding: 3%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.85;
+
+}
+/*
+.overlay{
+    position: absolute;
+    width: 20em;
+    height: 35em;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    padding: 25px 35px;
+    background-color: #e8e2d6;
+    background-color: rgba(232,226,214,.9);
+    box-shadow: 0 0 120px -42px #0966d5;
+    margin-top: 8%;
+    margin-bottom: 10%;
+
+}
+*/
+
+
+.login *{
+
+}
+
+
+
+
+
+
+form [type="text"], .form [type="password"] {
+    background: white;    
+    margin: 4px auto;
+    padding: 12px 10px;
+    border: 2px solid wheat;
+    border-radius: 9px;
+    width: 100%;
+    outline: none;
+    font-family: "open-sans-regular";
+    margin-bottom: 5%;
+    
+}
+
+
+
+
+
+
+
+
+.login input:hover{
+    border: 3px solid black;
+}
+
+
+
+/* ------------------------------*/
+
+.logo {
+    display: block!important;
+}
+@media screen and (max-width: 780px){
+
+.logo {
+    display: none;
+}
+}
+
+
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #454b52;
+}
+a {
+    background-color: transparent;
+}
+* {
+    font-weight: normal;
+}
+
+
+
+#mensagem {
+    background-color: #f9f190!important;
+    display: none; /*exibir*/
+    border-left: 6px solid #b7b7b6;
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 10px;
+    margin-left: 10%;
+    font-family: 'open-sans-regular';
+
+}
+
+
+.faixa{
+    width: 100%;
+    top: 80px;
+    padding: 8px 0;
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0966d5;
+
+}
+
+
+
+.borda-redonda {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.login *{
+  
+
+}
+
+
+
+.logo {
+    width: 8em;
+    height: 8em;
+    margin-left: 31%;
+
+
