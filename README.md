@@ -40,15 +40,37 @@ A parte do backend está rodano no pythonanywhre.
 * Instalação de todas as dependências especificadas no arquivo "requirements.txt", além de Python 3.8 
 
 ## Execução do sistema localmente
-1. clone do repositório
-2. Na pasta raíz "desfiopubfuture", crie um ambiente virtual  
-`virtualenv -p python ambiente_virtual`
-obs: É necessŕaio ter instalado o virtualenv
-3. Dentro do ambiente virtual, execute o comando `pip install -r requeriments.txt` que fará a instalação de todas as dependências necessárias   
-3.1 O acesso ao ambiente pode ser feito digitando na raíz o comando `. ambiente_virtual/bin/activate`, fazendo o ambiente ativar  
-3.1.1 Para desativar: `deactivate`
-4. Com todas as dependências instaladas, basta executar o script "run_app.py" que contém o inicializador do sistema e do servidor  
-5. Com o servidor inicializado: basta abrir o arquivo "index.html" e navegar pelo sistema.
+Sugiro instalar as dependências em um ambiente virtal
+1. clone o repositório
+```bash
+git clone https://github.com/benlove-chris/desafiopubfuture.git
+```
+3. Na pasta raíz "desfiopubfuture", crie um ambiente virtual  
+```bash
+virtualenv nome_do_ambiente
+```
+
+obs: É necessário ter instalado o virtualenv
 
 
+4. Na pasta raíz "desfiopubfuture", execute
+```bash
+. nome_do_ambiente/bin/activate
+```
+
+6. Com o ambiente ativado, execute o comando 
+```bash
+pip install -r requirements.txt
+```
+que fará a instalação de todas as dependências necessárias 
+
+8. Na pasta raíz "desfiopubfuture", execute
+```bash
+python3 run_app.py
+```
+10. Na pasta "Frontend" navegue na nos arquivos html, iniciando pelo "index.html"
+11. Para sair do ambiente
+```bash
+deactivate
+```
 
