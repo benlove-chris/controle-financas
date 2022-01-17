@@ -3,7 +3,6 @@ from application import app
 
 @pytest.fixture(scope="module")
 def app():
-
     yield app
 
 

@@ -21,7 +21,9 @@ $(document).ready(function(){
         for (var i in contas) {
             if (contas[i].usuario == id_usuario) {
                 lin =   "<tr id= 'tr_Conta" +  contas[i].numeroConta+"' >" + 
-                    "<td>"+ contas[i].numeroConta + "</td>"+                  
+                    "<td>"+ contas[i].numeroConta + "</td>"+      
+                    "<td>"+ contas[i].instituicaoFinanceira + "</td>"+      
+                    "<td>"+ contas[i].tipoConta + "</td>"+                  
                     "<td>"+                             
                         '<ul class="list-inline m-0">'+
                             '<li class="list-inline-item ">'+

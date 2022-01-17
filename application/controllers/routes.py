@@ -31,7 +31,6 @@ def listar(classe):
     elif classe == "Usuario": 
         dados = db.session.query(Usuario).all()         
     
-
     lista_jsons = [ x.json() for x in dados ]
 
     resposta = jsonify(lista_jsons) 
@@ -39,11 +38,8 @@ def listar(classe):
     return resposta
 
 
-
-
 # rota para cadastar os dados da classe recebida como parametro
 @geral.route("/cadastrar/<string:classe>", methods=['POST'])
-
 def cadastrar(classe):
     resposta = jsonify({"resultado": "ok"})
     dados = request.get_json()
@@ -88,7 +84,6 @@ def cadastrar(classe):
 
 # rota para listar dados de uma despesa especifica
 @geral.route("/listar_despesa_esp/<int:idDespesa>", methods=['GET'])
-
 def dados_despesa_esp(idDespesa):
     
     dados = Despesa.query.get_or_404(idDespesa)
@@ -210,17 +205,14 @@ def apagar_usuario(idUsuario):
 
 # rota para listar dados de uma receita especifica
 @geral.route("/listar_receita_esp/<int:idReceita>", methods=['GET'])
-
 def dados_receita_esp(idReceita):
-    
     dados = Receita.query.get_or_404(idReceita)
     return (dados.json())
 
+
 # rota para listar dados de uma receita especifica
 @geral.route("/listar_conta_esp/<int:numeroConta>", methods=['GET'])
-
 def dados_conta_esp(numeroConta):
-    
     dados = Conta.query.get_or_404(numeroConta)
     return (dados.json())
 
@@ -228,9 +220,7 @@ def dados_conta_esp(numeroConta):
 # rota para editar uma receita especifica
 @geral.route("/editar_receita/<int:idReceita>",  methods=['POST'])
 def editar_receita(idReceita):
-   
     dados = request.get_json()
-    
     resposta = jsonify({"resultado":"ok","detalhes": "ok"})
     
     try:
@@ -407,7 +397,6 @@ def listar_periodo(classe):
 
         lista_jsons = [ x.json() for x in despesas ]
     
-
         resposta = jsonify(lista_jsons) 
         
         resposta.headers.add("Access-Control-Allow-Origin", "*") 

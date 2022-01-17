@@ -3,7 +3,9 @@
    <head>
       <meta charset="utf-8">
       <title>Conta</title>
+      <link rel="stylesheet" type="text/css" href="../css/estilo.css">
       <link rel="stylesheet" type="text/css" href="../css/carteira.css">
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -35,12 +37,12 @@
          </div>
       </nav>
       <div class="content">
-         <h2>Olá, <span id="nome_usuario"> </span><br> seja bem vindo a sua conta <span id="numero_conta"></span></h2>
+         <h2 class="boas-vindas">Olá, <span id="nome_usuario"> </span><br> seja bem vindo a sua conta <span id="numero_conta"></span></h2>
          <!-- corpo -->
-         <div class="tab-content bg-success">
+         <div class="tab-content bg-light">
             <div class="container">
                
-               <span>Saldo total</span>
+               <span class="tituloSaldo">Saldo total</span>
                <h1 id="saldoTotal">R$ </h1>
                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#transferir" data-whatever="@mdo">Transferir Recursos</button>
             </div>
@@ -74,7 +76,7 @@
                <!--modal footer-->
                <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                  <button type="submit" class="btn btn-primary"  onclick="realizarTransferencia();"  data-dismiss="modal">Cadastrar conta</button>
+                  <button type="submit" class="btn btn-primary"  onclick="realizarTransferencia();"  data-dismiss="modal">Realizar transferência</button>
                </div>
             </div>
          </div>

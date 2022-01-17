@@ -1,7 +1,7 @@
 
 
 .content{
-  width: 80%;
+  width: 50%;
   height: auto;
   margin: 0 auto;
   padding: 30px;
@@ -30,8 +30,25 @@
   
 }
 
+.tituloSaldo{
+  color: #0070ba;
+}
 
+.boas-vindas{
+  color: #2c2e2f;
+  font-weight: 700;
+      font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+}
 
+#saldoTotal{
+  font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    color: #2c2e2f;
+}
 
 
 

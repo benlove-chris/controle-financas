@@ -16,7 +16,7 @@ class Usuario(db.Model):
         """
         return f"idUsuario: {self.idUsuario} \n nome: {self.nome} \n email: {self.email}\n usuario: {self.usuario} "
 
-    #receita em json
+    
     def json(self):
         """
         Retorna os atributos da classe no formato json
@@ -48,7 +48,7 @@ class Conta(db.Model):
         """
         return f"{self.numeroConta} \n {self.conta} \n {self.tipoConta} \n {self.instituicaoFinanceira} "
 
-    #em json
+    
     def json(self):
         """
         Retorna os atributos da classe no formato json
@@ -88,7 +88,7 @@ class Despesa(db.Model):
         """
         return f"idDespesa: {self.idDespesa} \n valor: {self.valor} \n data Pagamento: {self.dataPagamento} \n Data Pagamento Esperado: {self.dataPagamentoEsperado} \n tipo Despesa: {self.tipoDespesa} " 
         
-    #despesa em json
+    
     def json(self):
         """
         Retorna os atributos da classe no formato json
@@ -128,7 +128,7 @@ class Receita(db.Model):
         """
         return f"idReceita: {self.idReceita} valor: {self.valor} \n data Recebimento: {self.dataRecebimento} \n data Recebimento Esperado: {self.dataRecebimentoEsperado} \n tipoReceita: {self.tipoReceita} \n descricao: {self.descricao}"
 
-    #receita em json
+    
     def json(self):
         """
         Retorna os atributos da classe no formato json
